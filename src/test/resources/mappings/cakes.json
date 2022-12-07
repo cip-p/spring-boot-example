@@ -1,0 +1,31 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/wiremock-cakes"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "title": "cake with all fields",
+        "desc": "some desc 1"
+      },
+      {
+        "title": "cake with missing desc"
+      },
+      {
+        "title": "cake with null desc",
+        "desc": null
+      },
+      {
+        "title": "cake with extra field",
+        "desc": "some desc 2",
+        "image": "some image",
+        "unknown_field": "some unknown field"
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
