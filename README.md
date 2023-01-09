@@ -8,6 +8,8 @@
 * Spring boot - CRUD operations for managing cakes; application exposed on port `8081`
 * Spring boot security - basic authentication applied to all APIs
 * H2 database - for production and test code
+* Swagger
+* OpenApi
 * Wiremock - for integration tests - stubbing the external URL from where cakes database is populated on application startup (see `src/test/resources/mappings/cakes.json` file)
 * Spring integration tests using `WebTestClient`
 * Junit5, AssertJ
@@ -54,6 +56,14 @@ mvn spring-boot:run
 docker run -p 8081:8081 cake-service
 ```
 
+
+## Swagger / OpenApi
+
+Swagger endpoint: [http://localhost:8081/swagger-ui/index.html](http://localhost:8081/swagger-ui/index.html)
+
+OpenApi endpoint: [http://localhost:8081/v3/api-docs](http://localhost:8081/v3/api-docs)
+
+_**Important**_: swagger/openapi dependency for spring-boot 3 is now `springdoc-openapi-starter-webmvc-ui`  
 
 ## APIs
 
