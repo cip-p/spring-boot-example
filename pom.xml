@@ -17,7 +17,7 @@
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2022.0.0</spring-cloud.version>
-        <assertj-core.version>3.23.1</assertj-core.version>
+        <assertj-core.version>3.24.1</assertj-core.version>
     </properties>
 
     <dependencyManagement>
