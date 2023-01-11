@@ -1,4 +1,4 @@
-# spring-boot-example
+# Spring Boot Example
 
 `/GET /POST /PUT /DELETE` APIs for managing cakes.
 
