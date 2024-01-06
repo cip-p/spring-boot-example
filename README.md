@@ -13,6 +13,7 @@
 * Wiremock - for integration tests - stubbing the external URL from where cakes database is populated on application startup (see `src/test/resources/mappings/cakes.json` file)
 * Spring integration tests using `WebTestClient`
 * Junit5, AssertJ
+* Cucumber, Spring boot cucumber
 * Lombok
 * Maven
 * Docker
