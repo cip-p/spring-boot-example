@@ -113,6 +113,20 @@ curl -X DELETE 'localhost:8081/cakes/15' \
 -u "cake-user:cake-password-which-should-be-kept-in-a-secret-place-and-injected-when-application-is-deployed"
 ```
 
+## Cucumber
+### Spring Boot Cucumber configuration
+- CakeCucumberSpringConfiguration.java
+- RunCucumberTest.java
+### Data table transformers
+- CakeDataTableTransformers.java
+### Feature files and step definitions
+- src/test/resources/features/cakes.feature
+- CakeStepDefs.java
+### IntelliJ IDEA Cucumber plugin
+- https://plugins.jetbrains.com/plugin/7212-cucumber-for-java
+
+
+
 ## Notes:
 
 * The `CakeDatabasePopulatorTest` integration test is using Wiremock to stub the external URL for loading cakes. The file mapping of that response is located under `src/test/resources/mappings/cakes.json`.
