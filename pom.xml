@@ -19,7 +19,7 @@
         <spring-cloud.version>2023.0.0</spring-cloud.version>
         <springdoc-openapi-starter-webmvc-ui.version>2.3.0</springdoc-openapi-starter-webmvc-ui.version>
         <hibernate-validator.version>8.0.1.Final</hibernate-validator.version>
-        <assertj-core.version>3.25.2</assertj-core.version>
+        <assertj-core.version>3.25.3</assertj-core.version>
         <cucumber.version>7.15.0</cucumber.version>
         <junit-platform-suite.version>1.10.1</junit-platform-suite.version>
     </properties>
