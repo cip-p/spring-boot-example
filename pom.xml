@@ -20,7 +20,7 @@
         <springdoc-openapi-starter-webmvc-ui.version>2.6.0</springdoc-openapi-starter-webmvc-ui.version>
         <hibernate-validator.version>8.0.1.Final</hibernate-validator.version>
         <assertj-core.version>3.26.3</assertj-core.version>
-        <cucumber.version>7.19.0</cucumber.version>
+        <cucumber.version>7.20.0</cucumber.version>
         <junit-platform-suite.version>1.11.0</junit-platform-suite.version>
     </properties>
 
